@@ -1,0 +1,54 @@
+/* Mobile-CSS */
+
+.use_flow{
+    overflow: hidden;
+    margin-top:20px;
+    background: #222;
+    margin-bottom: 5%;
+    width: 100%;
+    /* width:60%; */
+}
+
+.use_flow h2{
+    color: turquoise;
+    text-align: center;
+    margin: 5%;
+}
+.use_flow h1{
+    color: turquoise;
+    text-align: center;
+
+}
+.use_flow_num{
+    color:turquoise;
+    font-size: 35px;
+}
+
+
+.use_flow_detail{
+    overflow: hidden;
+    background: white;
+    margin :5% 5%;
+}
+
+.use_flow_detail_box{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block; 
+    vertical-align:  middle;  
+}
+
+.use_flow_detail_box img{
+width: 100%; 
+height: auto;
+}
+
+/* PC-CSS */
+@media screen and (min-width: 993px){
+
+
+
+
+
+}

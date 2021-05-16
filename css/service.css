@@ -1,0 +1,350 @@
+/* Mobile-CSS */
+.page_title{
+
+    text-align: center;
+}
+
+.servis_contents{
+    font-size: 1.25rem;
+    line-height: 1;
+    letter-spacing: 0.12rem;
+    font-weight: 700;
+    color: #51a5dd;
+
+}
+
+.Explanation{
+    margin: 1.5%;
+
+}
+.RED_hed{
+    color:#db3d36;
+    font-family: "serif";
+}
+
+.Contact{
+    overflow: hidden;
+    padding :5%;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    background-color:  #222;
+    /* color: white; */
+}
+
+
+.Explanation_top{
+    font-size: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.Explanation_bottom{
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    margin :20% 5%; 
+}
+
+
+.Contact_title{
+    line-height: 3;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    /* color: white; */
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.innner{
+    overflow: hidden;
+    color: white;
+
+}
+
+
+.Contact_list{
+    float: left;
+    width: 50%;
+    margin: 0 1.5%;
+}
+
+
+
+.contact{
+    background: #222;
+    width:100%;
+    overflow: hidden;
+    padding:3% 10%;
+    border-radius: 10px;
+}
+.contact h2{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin:0 2%;
+    margin-bottom:30px;
+}
+.contact_left{
+    overflow: hidden;
+    width: 96%;
+    padding-left: 10px;
+    margin :0 2%;
+    background: #b8bebf;
+    border-radius: 10px;
+}
+.contact_left:hover{
+    background:#72897a;
+}
+.contact_right{
+    background: #34A1DD;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 96%;
+    margin :0 2%;
+    border-radius: 10px;
+}
+.contact_right:hover{
+    background:#db3d36;
+}
+.contact_left2{
+    float: left;
+    width:15%;
+    
+}
+.contact_left2 p{
+    color: #fff;
+}
+.contact_right2{
+    float: left;
+    width:85%;
+}
+.contact_right2 p{
+    color: #fff;
+}
+.contact_left3{
+    float: left;
+    float: left;
+    
+    width:15%;
+}
+.contact_left3 p{
+    color: #fff;
+    
+}
+.contact_right3{
+    float: left;
+    float: left;
+    width:85%;
+}
+.contact_right3 p{
+    color: #fff;
+}
+
+
+.Features{
+    margin :20% 0; 
+    width: 100%;
+}
+
+.Features_hed{
+    text-align: center;
+}
+
+.Features_hed p{
+    font-size: 1.25rem;
+    line-height: 1;
+    letter-spacing: 0.12rem;
+    font-weight: 700;
+    color: #51a5dd;
+
+}
+
+.Features_01{
+    margin-top :30%;
+    /* background-color: #eaf4fa;
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: #51a5dd; */
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+.Features_Sentence{
+    float: left ;
+    margin-left :0%;
+    width:100%;
+    text-align: center;
+}
+.Features_Sentence_p{
+    font-size: 30px;
+}
+.Features_Sentence_num{
+    font-size: 30px;
+
+}
+
+
+.Features_picture{
+    float: left ;
+    margin-top :15%;
+    overflow: hidden; 
+    width:0%;
+    text-align: center;
+
+}
+
+.Features_picture img{
+    float: left;
+    width:100%;
+}
+
+
+.Instructions{
+    overflow: hidden; 
+    background: #2a2b2c;
+}
+.Instructions_hed{
+    margin:10%;
+    text-align: center;
+}
+
+.Instructions{
+    color: #fff;
+    padding-bottom: 10%;
+}
+.Instructions_Sentence p{
+    text-align: center;
+}
+
+.Instructions_picture{
+    overflow: hidden;
+    margin:15% 10% 0 10%;
+    width:80%;
+    height: 100%;
+}
+.Instructions_picture img{
+    width:100%;
+    object-fit: cover;
+}
+
+.step_p{
+    margin: 10%;
+
+
+}
+
+
+
+
+/* taitile */
+
+
+
+
+/* PC-CSS */
+@media screen and (min-width: 993px){
+    .contact_left{
+        overflow: hidden;
+        float: left !important;
+        width: 48%!important;
+        padding-left: 10px;
+        margin :0;
+        margin-right:2%;
+        background: #b8bebf;
+        border-radius: 10px;
+    }
+
+    .contact_right{
+        background: #34A1DD;
+        overflow: hidden;
+        float: left!important;
+        padding-left: 10px;
+        width: 48%!important;
+        margin :0;
+        margin-left:2%;
+        border-radius: 10px;
+    }
+
+
+    .Features{
+        margin :20% 0; 
+    }
+    
+    .Features_hed{
+        text-align: center;
+    }
+    
+    .Features_hed p{
+        font-size: 1.25rem;
+        line-height: 1;
+        letter-spacing: 0.12rem;
+        font-weight: 700;
+        color: #51a5dd;
+    
+    }
+    
+    .Features_01{
+        margin-top :5%;
+        background-color: #eaf4fa;
+        border: 5px solid;
+        border-radius: 8px;
+        border-color: #51a5dd;
+        overflow: hidden;
+        padding: 80px;
+    
+    }
+    
+    .Features_Sentence{
+        float: left;
+        margin-left :5%;
+        width:45%;
+    }
+    .Features_picture{
+        /* float:left; */
+        display: inline-block;
+        overflow: hidden; 
+        margin :0;
+        width:45%;
+        margin-left :5%;
+        /* text-align: center; */
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    
+    .Features_picture img{
+        float:left;
+        width:100%;
+        height:100%;
+        vertical-align: middle;
+    }
+    
+
+    .step {
+        margin :0;
+        float:left;
+        overflow: hidden;
+        width: 20%;
+        margin:0 2.5%;
+    }
+    .Instructions_picture{
+        overflow: hidden;
+        /* margin-top :15%;
+        margin-left :15%;
+        width:20%; */
+        height: 100%;
+    }
+    .Instructions_picture img{
+        width:100%;
+        object-fit: cover;
+    }
+
+
+}

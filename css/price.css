@@ -1,0 +1,41 @@
+/* Mobile-CSS */
+
+.Heading{
+    background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10%;
+    padding: 10% 5%;
+}
+　.Heading p{
+    font-size: 50px;
+}
+
+.point_description{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+
+.point_margin{
+    margin: 10%;
+
+
+
+}
+
+
+
+
+/* PC-CSS */
+@media screen and (min-width: 993px){
+
+
+
+
+
+
+
+}
