@@ -8,7 +8,7 @@ Matching youtubers and video editors
 
 This app is a matching service.
 The payment is done by Stripe.
-It is a business model in which the client does not order the project, but the video editor himself becomes the product.
+It is a business model in which the client does not order the project, but *the video editor himself becomes the product*.
 
 # Features
 
